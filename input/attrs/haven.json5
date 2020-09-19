@@ -1,0 +1,9 @@
+{
+    water   : { Refractive  : { abs: 0.4, inside: 1.3, outside: 1.0 }},
+    shatter : { Refractive  : { abs: 0.4, inside: 1.5, outside: 1.0 }},
+    gold    : { Mirror  : { abs: 0.4 }},
+
+    hair    : { Transparent: {abs: 0.1} },
+    petals  : { Transparent: {abs: 0.8} },
+    leaves  : { Transparent: {abs: 0.4} },
+}
