@@ -1,0 +1,23 @@
+{
+    body        : [['objs/jwst/telescope/body.obj'],  null],
+    dish        : [['objs/jwst/telescope/dish.obj'],  null],
+    mirror      : [['objs/jwst/telescope/mirror.obj'],  null],
+    nose        : [['objs/jwst/telescope/nose.obj'],  null],
+    panels      : [['objs/jwst/telescope/panels.obj'],  null],
+    stem        : [['objs/jwst/telescope/stem.obj'],  null],
+
+    solar       : [['objs/jwst/solar/p0.obj', 'objs/jwst/solar/p1.obj', 'objs/jwst/solar/p2.obj', 'objs/jwst/solar/p3.obj', 'objs/jwst/solar/p4.obj', 'objs/jwst/solar/p5.obj'],  null],
+
+    moons       : [['objs/jwst/moons/moon_0.obj', 'objs/jwst/moons/moon_1.obj', 'objs/jwst/moons/moon_2.obj', 'objs/jwst/moons/moon_3.obj', 'objs/jwst/moons/moon_4.obj'],  null],
+
+    rings       : [['objs/jwst/rings/rings_0.obj', 'objs/jwst/rings/rings_1.obj', 'objs/jwst/rings/rings_2.obj'],  null],
+    gems        : [['objs/jwst/rings/rings_3.obj'],  null],
+
+    earth_clouds    : [['objs/jwst/earth/clouds_up.obj', 'objs/jwst/earth/clouds_low.obj'],  null],
+    earth_land      : [['objs/jwst/earth/land.obj'],  null],
+    earth_sea       : [['objs/jwst/earth/sea.obj'],  null],
+
+    exo_clouds  : [['objs/jwst/exo/clouds_up.obj', 'objs/jwst/exo/clouds_low.obj'],  null],
+    exo_land    : [['objs/jwst/exo/land.obj'],  null],
+    exo_sea     : [['objs/jwst/exo/sea.obj'],  null],
+}

@@ -1,7 +1,7 @@
 {
     samples: {
-        // ambient_occlusion   : 27,
-        // soft_shadows        : 13
+        ambient_occlusion   : 27,
+        soft_shadows        : 13
     },
     sky: {
         brightness  : 0.3,
