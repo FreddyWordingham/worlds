@@ -1,15 +1,23 @@
 {
-    body        : ['#bc8f8fff', '#cc8867ff', '#bbbbbbff'],
-    dish        : ['#000000ff', '#a79884ff', '#e3dccfff'],
-    mirror      : ['#000000ff', '#ffb800ff', '#fffa00ff'],
-    nose        : ['#000000ff', '#a79884ff', '#e3dccfff'],
-    panels      : ['#372bd0ff', '#1552C6ff', '#0095ffff', '#71A8EEff'],
-    stem        : ['#000000ff', '#a79884ff', '#e3dccfff'],
+    jwst_body   : ['#bc8f8fff', '#cc8867ff', '#bbbbbbff'],
+    jwst_dish   : ['#000000ff', '#a79884ff', '#e3dccfff'],
+    jwst_mirror : ['#000000ff', '#ffb800ff', '#fffa00ff'],
+    jwst_nose   : ['#000000ff', '#a79884ff', '#e3dccfff'],
+    jwst_panels : ['#372bd0ff', '#1552C6ff', '#0095ffff', '#71A8EEff'],
+    jwst_stem   : ['#000000ff', '#a79884ff', '#e3dccfff'],
 
+    solar_0     : ['#ffe200ff', '#ff4700ff', '#ff000dff'],
+    solar_1     : ['#ffe200ff', '#ff4700ff', '#ff000dff'],
+    solar_2     : ['#ffe200ff', '#ff4700ff', '#ff000dff'],
+    solar_3     : ['#ffe200ff', '#ff4700ff', '#ff000dff'],
+    solar_4     : ['#ffe200ff', '#ff4700ff', '#ff000dff'],
+    solar_5     : ['#ffe200ff', '#ff4700ff', '#ff000dff'],
 
-    solar       : ['#ffe200ff', '#ff4700ff', '#ff000dff'],
-
-    moons       : ['#a79884ff', '#d2b186ff', '#e3dccfff'],
+    moon_0      : ['#a79884ff', '#d2b186ff', '#e3dccfff'],
+    moon_1      : ['#a79884ff', '#d2b186ff', '#e3dccfff'],
+    moon_2      : ['#a79884ff', '#d2b186ff', '#e3dccfff'],
+    moon_3      : ['#a79884ff', '#d2b186ff', '#e3dccfff'],
+    moon_4      : ['#a79884ff', '#d2b186ff', '#e3dccfff'],
 
     rings       : ['#595c62ff', '#d2d2d2ff'],
     gems        : ['#008080ff', '#51dab6ff', '#4bff00ff'],
