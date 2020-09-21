@@ -10,7 +10,7 @@
     attrs   : { There: 'attrs/jwst.json5' },
     cols    : { There: 'cols/jwst.json5' },
     cam     : { Here: {
-        pos     : [256,0,128],
+        pos     : [254, -190, 70],
         tar     : [0,0,10],
         lens    : { Perspective: {fov: 45.0} },
         aspect  : "Square",

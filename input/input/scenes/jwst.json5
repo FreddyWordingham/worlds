@@ -1,0 +1,39 @@
+{
+    jwst_body   : [['objs/jwst/jwst/body.obj'],  null],
+    jwst_dish   : [['objs/jwst/jwst/dish.obj'],  null],
+    jwst_mirror : [['objs/jwst/jwst/mirror.obj'],  null],
+    jwst_nose   : [['objs/jwst/jwst/nose.obj'],  null],
+    jwst_panels : [['objs/jwst/jwst/panels.obj'],  null],
+    jwst_stem   : [['objs/jwst/jwst/stem.obj'],  null],
+
+    core        : [['objs/jwst/solar/core.obj'],  null],
+    solar_0     : [['objs/jwst/solar/s0.obj'],  null],
+    solar_1     : [['objs/jwst/solar/s1.obj'],  null],
+    solar_2     : [['objs/jwst/solar/s2.obj'],  null],
+    solar_3     : [['objs/jwst/solar/s3.obj'],  null],
+    solar_4     : [['objs/jwst/solar/s4.obj'],  null],
+    solar_5     : [['objs/jwst/solar/s5.obj'],  null],
+
+    moon_0      : [['objs/jwst/moons/moon_0.obj'],  null],
+    moon_1      : [['objs/jwst/moons/moon_1.obj'],  null],
+    moon_2      : [['objs/jwst/moons/moon_2.obj'],  null],
+    moon_3      : [['objs/jwst/moons/moon_3.obj'],  null],
+    moon_4      : [['objs/jwst/moons/moon_4.obj'],  null],
+
+    rings       : [['objs/jwst/rings/ring_0.obj', 'objs/jwst/rings/ring_1.obj', 'objs/jwst/rings/ring_2.obj'],  null],
+    gems        : [['objs/jwst/rings/ring_3.obj'],  null],
+
+    earth_clouds: [['objs/jwst/earth/earth_clouds_upper.obj', 'objs/jwst/earth/earth_clouds_lower.obj'],  null],
+    earth_land  : [['objs/jwst/earth/earth_land.obj'],  null],
+    earth_sea   : [['objs/jwst/earth/earth_sea.obj'],  null],
+
+    exo_clouds  : [['objs/jwst/exo/exo_clouds_upper.obj', 'objs/jwst/exo/exo_clouds_lower.obj'],  null],
+    exo_land    : [['objs/jwst/exo/exo_land.obj'],  null],
+    exo_sea     : [['objs/jwst/exo/exo_sea.obj'],  null],
+
+    bone        : [['objs/jwst/dog/bone.obj'],  null],
+    dog         : [['objs/jwst/dog/syrup.obj'],  null],
+    helm        : [['objs/jwst/dog/helm.obj'],  null],
+    holes        : [['objs/jwst/dog/holes.obj'],  null],
+    // hair        : [['objs/jwst/dog/hair.obj'],  null],
+}
