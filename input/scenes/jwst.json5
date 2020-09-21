@@ -13,11 +13,11 @@
     rings       : [['objs/jwst/rings/rings_0.obj', 'objs/jwst/rings/rings_1.obj', 'objs/jwst/rings/rings_2.obj'],  null],
     gems        : [['objs/jwst/rings/rings_3.obj'],  null],
 
-    earth_clouds    : [['objs/jwst/earth/clouds_up.obj', 'objs/jwst/earth/clouds_low.obj'],  null],
-    earth_land      : [['objs/jwst/earth/land.obj'],  null],
-    earth_sea       : [['objs/jwst/earth/sea.obj'],  null],
+    earth_clouds    : [['objs/jwst/earth/earth_clouds_up.obj', 'objs/jwst/earth/earth_clouds_low.obj'],  null],
+    earth_land      : [['objs/jwst/earth/earth_land.obj'],  null],
+    earth_sea       : [['objs/jwst/earth/earth_sea.obj'],  null],
 
-    exo_clouds  : [['objs/jwst/exo/clouds_up.obj', 'objs/jwst/exo/clouds_low.obj'],  null],
-    exo_land    : [['objs/jwst/exo/land.obj'],  null],
-    exo_sea     : [['objs/jwst/exo/sea.obj'],  null],
+    exo_clouds  : [['objs/jwst/exo/exo_clouds_up.obj', 'objs/jwst/exo/exo_clouds_low.obj'],  null],
+    exo_land    : [['objs/jwst/exo/exo_land.obj'],  null],
+    exo_sea     : [['objs/jwst/exo/exo_sea.obj'],  null],
 }
