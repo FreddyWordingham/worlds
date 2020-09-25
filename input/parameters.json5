@@ -6,17 +6,24 @@
     }},
     sett    : { There: 'sett/standard.json5' },
     shader  : { There: 'shaders/test.json5' },
-    surfs   : { There: 'scenes/jwst.json5' },
-    attrs   : { There: 'attrs/jwst.json5' },
-    cols    : { There: 'cols/jwst.json5' },
+    surfs   : { There: 'scenes/path.json5' },
+    attrs   : { There: 'attrs/path.json5' },
+    cols    : { There: 'cols/path.json5' },
     cam     : { Here: {
-        pos     : [254, -190, 70],
-        tar     : [0,0,10],
+        // pos     : [256, -256, 256],outside
+        // tar     : [0,0,0],
+        // pos     : [-48.0, 0, 3],people
+        // tar     : [0,0,3],
+        // pos     : [20, 28.5, 32],jwst
+        // tar     : [4.7,25.1,26.7],
+        pos     : [72,72,128],
+        tar     : [0,0,0],
         lens    : { Perspective: {fov: 45.0} },
+        // lens    : { Perspective: {fov: 30} },
         aspect  : "Square",
-        ss_power: 3,
-        hr_res  : 1000
+        // ss_power: 3,
+        hr_res  : 400
     }},
-    update_size: 10000,
+    update_size: 400,
     num_pics: 1
 }
