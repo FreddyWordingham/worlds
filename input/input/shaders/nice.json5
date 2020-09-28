@@ -1,0 +1,23 @@
+{
+    samples: {
+        ambient_occlusion   : 27,
+        soft_shadows        : 13
+    },
+    sky: {
+        brightness  : 0.3,
+        sun_pos     : [1740.35, -1080.74, 101.69],
+        sun_rad     : 15.0,
+        grad        : ['#ff000dff', '#f04a79ff', '#724ceeff', '#372bd0ff', '#1552C6ff', '#0095ffff']
+    },
+    light: {
+        ambient : 0.3,
+        diffuse : 0.5,
+        specular: 0.2,
+        spec_pow: 8
+    },
+    shadow: {
+        ambient : 0.3,
+        direct  : 0.7,
+        ao_pow  : 2
+    }
+}
