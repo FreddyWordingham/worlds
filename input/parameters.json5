@@ -12,17 +12,17 @@
     cam     : { Here: {
         // pos     : [256, -256, 256],outside
         // tar     : [0,0,0],
-        // pos     : [-48.0, 0, 3],people
-        // tar     : [0,0,3],
+        pos     : [-48.0, 0, 3],
+        tar     : [0,0,3],
         // pos     : [20, 28.5, 32],jwst
         // tar     : [4.7,25.1,26.7],
-        pos     : [72,72,128],
-        tar     : [0,0,0],
+        // pos     : [72,72,128],
+        // tar     : [0,0,0],
         lens    : { Perspective: {fov: 45.0} },
         // lens    : { Perspective: {fov: 30} },
         aspect  : "Square",
-        // ss_power: 3,
-        hr_res  : 400
+        ss_power: 3,
+        hr_res  : 1080
     }},
     update_size: 400,
     num_pics: 1
