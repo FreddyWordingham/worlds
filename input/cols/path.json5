@@ -1,4 +1,4 @@
-{
+{   // Map of colour gradients.
     jwst_reflect: ['#bc8f8fff', '#cc8867ff', '#bbbbbbff'],
     jwst_body   : ['#bc8f8fff', '#cc8867ff', '#bbbbbbff'],
     jwst_dish   : ['#000000ff', '#a79884ff', '#e3dccfff'],
@@ -35,9 +35,9 @@
     lead        : ['#f00202ff', '#e66d6dff', '#f08d68ff'],
     umbrella    : ['#668a62ff', '#7e9476ff', '#bfd993ff'],
 
-    core        : ['#000000ff', '#a79884ff', '#e3dccfff'],
-    inner_ring  : ['#000000ff', '#a79884ff', '#e3dccfff'],
-    outer_ring  : ['#000000ff', '#a79884ff', '#e3dccfff'],
+    core        : ['#f00202ff', '#e66d6dff', '#f08d68ff'],
+    inner_ring  : ['#f00202ff', '#e66d6dff', '#f08d68ff'],
+    outer_ring  : ['#f00202ff', '#e66d6dff', '#f08d68ff'],
     glide_0     : ['#b22222ff', '#eb9425ff', '#f6dd1dff'],
     glide_1     : ['#2222b2ff', '#9425ebff', '#dd1df6ff'],
     glide_2     : ['#22b222ff', '#25eb94ff', '#1df6ddff'],

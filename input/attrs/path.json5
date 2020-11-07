@@ -1,11 +1,11 @@
-{
-    jwst_mirror : { Mirror  : { abs: 0.4 }},
+{   // Map of surface attributes gradients.
+    jwst_mirror : { Mirror  : { abs: 0.4 }},                                // Reflective. Absorb fraction of incoming light.
     jwst_reflect: { Mirror  : { abs: 0.8}},
 
     mirror      : { Mirror  : { abs: 0.2}},
-    dome_top    : { Refractive  : { abs: 0.1, inside: 1.1, outside: 1.0 }},
-    lava        : { Luminous    : { mult: 2.0} },
-    clouds      : { Transparent : { abs: 0.1} },
+    dome_top    : { Refractive  : { abs: 0.1, inside: 1.1, outside: 1.0 }}, // Refractive. Absorb fraction. Inside and outside refractive indices.
+    lava        : { Luminous    : { mult: 2.0} },                           // Luminous object. Multiply the light level by this fraction
+    clouds      : { Transparent : { abs: 0.1} },                            // Partialy transparent object. Absorb fraction of light.
 
     bulbs       : { Luminous    : { mult: 2.0} },
 

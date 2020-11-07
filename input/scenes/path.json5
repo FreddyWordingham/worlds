@@ -1,5 +1,5 @@
-{
-    mirror      : [['objs/path/buildings/mirror.obj'],  null],
+{    // Map of surfaces.
+    mirror      : [['objs/path/buildings/mirror.obj'],  null],  // Apply no additional transforms to this mesh before linking it.
     wall        : [['objs/path/buildings/wall.obj'],    null],
 
     dome_bottom : [['objs/path/dome/bottom.obj'],   null],
@@ -25,7 +25,7 @@
     knot        : [['objs/path/landscape/knot.obj'],    null],
     puddles     : [['objs/path/landscape/puddles.obj'], null],
 
-    path        : [['objs/path/path/path_0.obj', 'objs/path/path/path_1.obj', 'objs/path/path/path_2.obj'], null],
+    path        : [['objs/path/path/path_0.obj', 'objs/path/path/path_1.obj', 'objs/path/path/path_2.obj'], null],  // Combine these three objects together before linking.
     sides       : [['objs/path/path/sides.obj'],        null],
     underboard  : [['objs/path/path/underboard.obj'],   null],
 
