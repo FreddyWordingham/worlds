@@ -18,5 +18,5 @@
         hr_res  : 400,                              // Number of horizontal pixels.
     }},
     update_size: 400,                               // Pixels per window refresh.
-    num_pics: 1,                                    // Camera orbits origin.
+    window_scale: "X2",                             // Window scaling.
 }
