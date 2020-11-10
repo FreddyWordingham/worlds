@@ -15,8 +15,9 @@
         lens    : { Perspective: {fov: 60.0} },     // Lens type and parameters.
         aspect  : "Square",                         // Aspect ratio type.
         // ss_power: 3,                             // Optional super sampling. NxN per pixel.
-        hr_res  : 400,                              // Number of horizontal pixels.
+        hr_res  : 320,                              // Number of horizontal pixels.
     }},
-    update_size: 400,                               // Pixels per window refresh.
+    update_size: 80,                               // Pixels per window refresh.
+    num_pics: 1,                                    // Camera orbits origin.
     window_scale: "X2",                             // Window scaling.
 }
