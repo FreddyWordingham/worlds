@@ -10,14 +10,14 @@
     attrs   : { There: 'attrs/path.json5' },        // Use the attributes from this file.
     cols    : { There: 'cols/path.json5' },         // Use the colours from this file.
     cam     : { Here: {                             // Camera settings specified here:
-        pos     : [-52, 0, 7],                      // Camera observation position.
-        tar     : [-4.5, 0, 1.2],                   // Camera target postion.
-        lens    : { Perspective: {fov: 60.0} },     // Lens type and parameters.
-        aspect  : "Square",                         // Aspect ratio type.
-        // ss_power: 3,                             // Optional super sampling. NxN per pixel.
-        hr_res  : 320,                              // Number of horizontal pixels.
+        pos         : [-52, 0, 7],                  // Camera observation position.
+        tar         : [-4.5, 0, 1.2],               // Camera target postion.
+        lens        : { Perspective: {fov: 60.0} }, // Lens type and parameters.
+        aspect      : "Square",                     // Aspect ratio type.
+        // ss_power    : 3,                            // Optional super sampling. NxN per pixel.
+        hr_res      : 512,                          // Number of horizontal pixels.
     }},
-    update_size: 80,                               // Pixels per window refresh.
-    num_pics: 1,                                    // Camera orbits origin.
-    window_scale: "X2",                             // Window scaling.
+    update_size     : 512,                          // Pixels per window refresh.
+    num_pics        : 1,                            // Camera orbits origin.
+    window_scale    : "X1",                         // Window scaling.
 }
